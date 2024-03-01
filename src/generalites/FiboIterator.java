@@ -2,7 +2,7 @@ package generalites;
 
 import java.util.Iterator;
 
-public class FiboIterator implements Iterator<Integer>, generalites.Iterator<Integer> {
+public class FiboIterator implements Iterator<Integer>{
     private int current = 0;
     private int next = 1;
     private int count = 0;
@@ -10,6 +10,7 @@ public class FiboIterator implements Iterator<Integer>, generalites.Iterator<Int
 
     public FiboIterator(int bound) {
         this.bound = bound;
+        current=0;
     }
 
     @Override
