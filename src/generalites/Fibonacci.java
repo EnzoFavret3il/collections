@@ -13,7 +13,7 @@ public class Fibonacci implements Iterable<Integer> {
     }
 
     public static void main(String[] args) {
-        for (Integer x : new Fibonacci(20))
+        for (Integer x : new Fibonacci(60))
             System.out.println(x);
     }
 }
