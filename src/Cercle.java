@@ -23,9 +23,7 @@ class Cercle {
     public int getX() {
         return x;
     }
-}
 
-public class Main {
     public static void main(String[] args) {
         // Création d'une liste de Cercles
         ArrayList<Cercle> cercles = new ArrayList<>();
